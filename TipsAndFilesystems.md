@@ -2,7 +2,7 @@
 
 - Naming files and folders
 	- CamelCaseLooksLikeThis
-	- `underscores_can_work`
+	- underscores_can_work
 	- __NEVER__ use spaces!! Spaces confuse terminal 
 	- Generally a good idea to avoid special characters
 - Plain text files
