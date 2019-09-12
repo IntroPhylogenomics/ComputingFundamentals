@@ -3,7 +3,12 @@
 #### Naming files and folders
 
 ```
-Developing good habits (and breaking bad ones) for naming files and folders will make your life much easier in the long run. Many computing errors result from code just having trouble reading names properly. The most important rule is to NEVER use spaces! Doing so will frequently cause programs to only read part of the name. Also, it's a good idea to avoid special characters (like $, *, @, etc.) whenever possible. Some widely used approaches to filename syntax are:
+Developing good habits (and breaking bad ones) for naming files and folders will 
+make your life much easier in the long run. Many computing errors result from code 
+just having trouble reading names properly. The most important rule is to NEVER use 
+spaces! Doing so will frequently cause programs to only read part of the name. Also, 
+it's a good idea to avoid special characters (like $, *, @, etc.) whenever possible. 
+Some widely used approaches to filename syntax are:
 ```
 
 - CamelCaseLooksLikeThis
