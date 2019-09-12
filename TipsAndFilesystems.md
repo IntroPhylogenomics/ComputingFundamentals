@@ -1,6 +1,6 @@
 ## Practical Computing Tips
 
-#### Naming files and folders
+### Naming files and folders
 
 ```
 Developing good habits (and breaking bad ones) for naming files and folders will 
@@ -14,7 +14,7 @@ Some widely used approaches to filename syntax are:
 - CamelCaseLooksLikeThis
 - underscores_can_work
 
-#### Plain text files
+### Plain text files
 	
 - Human readable
 - ASCII and UniCode
