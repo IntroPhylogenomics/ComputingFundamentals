@@ -1,6 +1,6 @@
 ## Practical Computing Tips
 
-- Naming files and folders
+#### Naming files and folders
 	- CamelCaseLooksLikeThis
 	- underscores_can_work
 	- __NEVER__ use spaces!! Spaces confuse terminal 
