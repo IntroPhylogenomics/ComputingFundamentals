@@ -14,9 +14,21 @@ Some widely used approaches to filename syntax are:
 - CamelCaseLooksLikeThis
 - underscores_can_work
 
+```
+Find a style that you like and stick with it. Consistency helps a lot.
+```
+
 ### Plain text files
 	
-- Human readable
+```
+Nearly all files that you'll use for storing data and results in phylogenomics or 
+bioinformatics are plain text files. These files may have special names (like Nexus
+files - .nex), but these names just mean that these text files have been formatted 
+according to a particular set of requirements. They can all be opened by a text 
+editor and are human readable.
+```
+
+
 - ASCII and UniCode
 	- [ASCII on Wikipedia](https://en.wikipedia.org/wiki/ASCII)
 	- [UTF-8 on Wikipedia](https://en.wikipedia.org/wiki/UTF-8)
@@ -31,16 +43,3 @@ Some widely used approaches to filename syntax are:
 	- Disk spaces
 	- Jobs and IDs
   
-## Filesystem Structure
-  
-- The Unix root (/)
-	- The very base of the filesystem
-- Absolute paths
-	- All absolute paths begin at the root- start with /
-- Relative paths
-	- dont start with /
-	- Working directories
-	- Shortcuts for current and parent directories
-- Hidden files and folders
-	- Names begin with `.`
-	- Usually used for configuration files
