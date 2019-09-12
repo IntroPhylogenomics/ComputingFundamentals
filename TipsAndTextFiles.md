@@ -25,13 +25,17 @@ Nearly all files that you'll use for storing data and results in phylogenomics o
 bioinformatics are plain text files. These files may have special names (like Nexus
 files - .nex), but these names just mean that these text files have been formatted 
 according to a particular set of requirements. They can all be opened by a text 
-editor and are human readable.
+editor and are human readable. These files store characters using widely accepted
+standards like ASCII and UniCode.
 ```
 
+- [ASCII on Wikipedia](https://en.wikipedia.org/wiki/ASCII)
+- [UTF-8 on Wikipedia](https://en.wikipedia.org/wiki/UTF-8)
 
-- ASCII and UniCode
-	- [ASCII on Wikipedia](https://en.wikipedia.org/wiki/ASCII)
-	- [UTF-8 on Wikipedia](https://en.wikipedia.org/wiki/UTF-8)
+```
+Note that more specialized and proprietary file types (like .jpg, .pdf, .docx) are 
+not plain text and, therefore, are not human readable.
+```
 
 #### New line characters
 	
