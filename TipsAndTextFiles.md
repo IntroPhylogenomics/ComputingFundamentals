@@ -24,9 +24,12 @@ The first step in getting set up for any computing project is to download a good
 
 ## New line characters
 	
+One frequent cause of errors (and headaches) for those who move between different operating systems (especially with Windows) has to do with the type of character used to indicate the end of a line (called a "newline character"). These characters differ between operating systems, so a text file generated on a Linux system may not be read properly on Windows (and vice versa). Thankfully, good text editors make it easy to check and change the type of newline characters used in a file. For instance, BBEdit has a drop down menu at the bottom of every file that allows you to choose between "Legacy Mac (CR)", "Unix (LF)", and "Windows (CRLF)".
+	
 - [New Lines on Wikipedia](https://en.wikipedia.org/wiki/Newline)
 
 ## Activity Monitor
+
 	- CPU Activity
 	- Memory
 	- Disk spaces
