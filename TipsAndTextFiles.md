@@ -30,8 +30,4 @@ One frequent cause of errors (and headaches) for those who move between differen
 
 ## Activity Monitor
 
-	- CPU Activity
-	- Memory
-	- Disk spaces
-	- Jobs and IDs
-  
+As you start running analyses, you will frequently want to keep track of what's running on your computer and what kind of resources (e.g., processor time, memory) each task is using. To do this, most operating systems come with some kind of built-in activity monitor. For instance, on Mac OS, you can find the Activity Monitor program in Applications > Utilities. These programs should provide information about the tasks that are running, their ID numbers, and their usage of CPU, memory, and disk space. We will talk about how to use this information to manage tasks later in the workshop. At the command line on any Unix-based system, you should be able to find similar information with the command `top`, and sometimes `htop`.
