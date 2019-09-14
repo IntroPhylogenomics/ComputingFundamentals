@@ -22,7 +22,7 @@ Note that more specialized and proprietary file types (like .jpg, .pdf, .docx) a
 
 The first step in getting set up for any computing project is to download a good plain text editor. Note that __word processing programs (like Microsoft Word) are not plain text editors__ and cannot be used for file editing. A number of very good plain text editors are readily available. For Macs, try [BBEdit](https://www.barebones.com/products/bbedit/). An excellent editor available for all major platforms (Mac OS, Linux, and Windows) is [Sublime](https://www.sublimetext.com/3). 
 
-## New line characters
+## Newline characters
 	
 One frequent cause of errors (and headaches) for those who move between different operating systems (especially with Windows) has to do with the type of character used to indicate the end of a line (called a "newline character"). These characters differ between operating systems, so a text file generated on a Linux system may not be read properly on Windows (and vice versa). Thankfully, good text editors make it easy to check and change the type of newline characters used in a file. For instance, BBEdit has a drop down menu at the bottom of every file that allows you to choose between "Legacy Mac (CR)", "Unix (LF)", and "Windows (CRLF)".
 	
