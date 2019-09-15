@@ -16,7 +16,7 @@ While the addresses for all files and folders can be written with paths that sta
 Practice Exercises:
 
 If your current working directory is /Users/UserName/, write the absolute paths for the 
-directories referenced by the following relative paths.
+directories referenced by the following paths.
 
 - `Desktop`
 - `../Guest/`
