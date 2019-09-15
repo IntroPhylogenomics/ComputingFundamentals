@@ -5,4 +5,4 @@ This repository contains tutorials and associated files for learning about the f
 Select other markdown files (.md) to view tutorials specific to each topic:
 
 - [Practical Computing Advice and Plain Text Files](https://github.com/IntroPhylogenomics/ComputingFundamentals/blob/master/TipsAndTextFiles.md)
-- [Navigating Filesystems](https://github.com/IntroPhylogenomics/ComputingFundamentals/blob/master/FilesystemStructure.md)
+- [Filesystem Structure](https://github.com/IntroPhylogenomics/ComputingFundamentals/blob/master/FilesystemStructure.md)
