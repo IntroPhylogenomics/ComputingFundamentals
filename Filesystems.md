@@ -1,4 +1,4 @@
-# Navigating Filesystems
+# Filesystems
 
 ## Filesystem Structure
 
