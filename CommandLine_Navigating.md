@@ -18,4 +18,30 @@ To see more information about these contents you can add the `-l` flag (i.e., op
 
 `ls -l` - list directory contents in the long format.
 
-More information about options for the list command can be found [here](https://en.wikipedia.org/wiki/Ls).
+More information about options for the list command can be found [here](https://en.wikipedia.org/wiki/Ls). Adding the `-a` flag will display "hidden" files and folders
+
+`ls -a` - list directory contents, including hidden files and folders
+
+While these commands can indicate your location in the filesystem and the contents of that folder, you'll need to be able to change your location. This is accomplished with the change directory command
+
+`cd <PATH_TO_NEW_LOCATION>` - change your working directory
+
+Note that through these notes elements with angled branckets <...> should be replaced when executing commmands. For instance, if you are in a particular user's directory (e.g., `/Users/UserName/`) and you want to go to that user's desktop folder, you could use
+
+`cd Desktop`.
+
+In general, any relative or absolute path can be provided as an argument to `cd`. Remember also the special symbols like `..` and `~`. These are valuable shortcuts when moving around. For instance, to move to the parent of your current working directory, you can use
+
+`cd ..`
+
+Similarly, to move up two parents in the hierarchy, you could use
+
+`cd ../..`
+
+No matter where you are in your filesystem, you can immediately return to your home directory with
+
+`cd ~`
+
+and you can immediately get to the root with
+
+`cd /`
