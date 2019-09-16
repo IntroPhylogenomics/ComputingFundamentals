@@ -46,11 +46,16 @@ and you can immediately get to the root with
 
 `cd /`
 
-> Practice Exercise
+> __Practice Exercise__
 >
 > (1) Move to your home directory.
-> (2) List your home directory contents
+>
+> (2) List your home directory contents>
+>
 > (3) Move to a folder inside your home directory
+>
 > (4) Verify your current working directory
+>
 > (5) In one command, move to the _parent of your home directory_
+>
 > (6) Verify your current working directory
