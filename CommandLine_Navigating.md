@@ -6,3 +6,16 @@ The filesystem on Unix-based systems can be accessed not only through the point-
 
 ## Commands for Navigating
 
+To start navigating the filesystem, it helps to know where you are (i.e., your current working directory). You can print the absolute path to your current location using
+
+`pwd` - print working directory.
+
+After opening Terminal, use `pwd` to see the default working directory. To view the contents of this (or any) folder, you can use the list command
+
+`ls` - list the contents of a directory.
+
+To see more information about these contents you can add the `-l` flag (i.e., option) to the list command
+
+`ls -l` - list directory contents in the long format.
+
+More information about options for the list command can be found [here](https://en.wikipedia.org/wiki/Ls).
