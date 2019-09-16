@@ -28,7 +28,7 @@ While these commands can indicate your location in the filesystem and the conten
 
 Note that through these notes elements with angled branckets <...> should be replaced when executing commmands. For instance, if you are in a particular user's directory (e.g., `/Users/UserName/`) and you want to go to that user's desktop folder, you could use
 
-`cd Desktop`.
+`cd Desktop`
 
 In general, any relative or absolute path can be provided as an argument to `cd`. Remember also the special symbols like `..` and `~`. These are valuable shortcuts when moving around. For instance, to move to the parent of your current working directory, you can use
 
@@ -45,3 +45,12 @@ No matter where you are in your filesystem, you can immediately return to your h
 and you can immediately get to the root with
 
 `cd /`
+
+> Practice Exercise
+>
+> (1) Move to your home directory.
+> (2) List your home directory contents
+> (3) Move to a folder inside your home directory
+> (4) Verify your current working directory
+> (5) In one command, move to the _parent of your home directory_
+> (6) Verify your current working directory
