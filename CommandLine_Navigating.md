@@ -50,7 +50,7 @@ and you can immediately get to the root with
 >
 > (1) Move to your home directory.
 >
-> (2) List your home directory contents>
+> (2) List your home directory contents
 >
 > (3) Move to a folder inside your home directory
 >
