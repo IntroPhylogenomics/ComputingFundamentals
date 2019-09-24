@@ -52,6 +52,12 @@ In addition to creating new files, `nano` can be used to edit existing files. To
 
 A list of keyboard shortcuts for `nano` can be found [here](https://www.nano-editor.org/dist/latest/cheatsheet.html).
 
+Sometimes you may also want to just view the contents of a text file (or series of files) without opening an editor. The simplest command to do this is `cat`
+
+`cat test.txt` - view the entire contents of `test.txt`
+
+When you execute this command, the file's contents will be printed to the Terminal screen. You ...
+
 ## Deleting Files (CAREFUL!!)
 
 Before you learn the next command, please note that __DELETING FILES AT THE COMMAND LINE CANNOT BE UNDONE__.
