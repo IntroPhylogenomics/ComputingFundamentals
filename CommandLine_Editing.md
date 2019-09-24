@@ -56,7 +56,29 @@ Sometimes you may also want to just view the contents of a text file (or series 
 
 `cat test.txt` - view the entire contents of `test.txt`
 
-When you execute this command, the file's contents will be printed to the Terminal screen. You ...
+When you execute this command, the file's contents will be printed to the Terminal screen. You can also list the contents of multiple files at the same time using a wildcard. For instance, if you want to view the contents of all text files at once, you can use
+
+`cat *.txt` - view the contents of all files ending with `.txt`
+
+This ability is actually where `cat` derives its name - from con__cat__enating the contents of a series of files.
+
+While `cat` is very useful, sometimes you don't want to view all the contents of a file at once. You may only want to view a few lines at the very beginning or end of a file. In these cases, the commands `head` and `tail` are what you want. For instance, to view the first 10 lines of a file you can use
+
+`head test.txt` - view the first 10 lines of `test.txt`
+
+The precise number of lines that are displayed can be adjusted using the `-n` flag for `head`. For instance, to see the first 20 lines, use
+
+`head -n 20 test.txt` - view the first 20 lines of `test.txt`
+
+The `tail` command works similary to `head`, but instead starts at the end of the file. For instance, try
+
+`tail test.txt`
+
+As with `head`, you can adjust the number of lines displayed by `tail`
+
+`tail -n 20 test.txt`
+
+## Redirecting Output Streams
 
 ## Deleting Files (CAREFUL!!)
 
