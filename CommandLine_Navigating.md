@@ -59,3 +59,13 @@ and you can immediately get to the root with
 > (5) In one command, move to the _parent of your home directory_
 >
 > (6) Verify your current working directory
+
+## Wildcards
+
+One very powerful feature of working at the commandline is the ability to use wildcards. These are symbols that can match many other characters (or sets of characters) and allow you to list, view, or manipulate multiple files at once. The most general of these is `*`. This symbol can match any type or number of other characters. For instance, to list all of the files in a directory that end with `.txt`, you can use
+
+`ls *.txt` - list all of the text files ending with `.txt`
+
+You can also mix and match standard characters with wildcards for more sophisticated patterns. For instance, to find all the files that start with `m` and end with `.txt`, you can use
+
+`ls m*.txt` - list all files starting with `m` and ending with `.txt`.
