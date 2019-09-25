@@ -125,3 +125,5 @@ The corresponding command to delete a folder is `rmdir`. For instance
 Note that this command only works if a folder is empty. If there are files inside the folder, you can first delete these with `rm`, and then delete the folder with `rmdir`. You can also do these two steps in one, by specifying the recursive option (`-r`) to `rm`. Note that recursion will delete the folder and __anything__ nested inside it, including all files and other nested folders. Therefore, only use this if you're very confident it's want you want to do
 
 `rm -r myFolder` - delete `myFolder` and everything nested inside it
+
+Note that sloppy use of recursive deletion can cause you to delete entire sections of your filesystem!
