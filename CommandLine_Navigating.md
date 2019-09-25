@@ -85,8 +85,13 @@ Another useful trick when working at the command line is tab completion. As you 
 For instance, type each of the following and see if the system can guess that you want to execute the `history` command.
 
 `h` + `tab` - Does it autocomplete the command?
+
 `hi` + `tab`
+
 `his` + `tab`
+
 `hist` + `tab`
+
 `histo` + `tab`
+
 `histor` + `tab`
