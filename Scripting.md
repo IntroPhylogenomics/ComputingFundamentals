@@ -48,7 +48,7 @@ The permission that is important for scripts is the execute (`x`) permission. In
 
 Inside a bash script, or any other program, it is useful to leave comments as you write commands. These comments should explain what you are intending to do with your commands, so that you can remember later or that someone else can understand just by looking at your file. There is no limit on the number of comments that can be included in a script, and a good rule of thumb is to always write a little more than you think is necessary at the time.
 
-Comments are indicated in scripts using the `#` character. Anything that follows this character on the same line will be ignored. Here's a very simple script that illustrates the use of comments. If executed, this script should just print "script works!" back to the Terminal screen.
+Comments are indicated in scripts using the `#` character. Anything that follows this character on the same line will be ignored. Here's a very simple script that illustrates the use of comments.
 
 ```
 #! /usr/bin/env bash
@@ -58,7 +58,19 @@ Comments are indicated in scripts using the `#` character. Anything that follows
 echo "script works!" # This is a comment that follows a command.
 ```
 
-Note that we've used a new command in this script - `echo`. This is a simple command to print a string to the screen. Any argument that follows `echo` will be printed.
+If executed, this script should just print "script works!" back to the Terminal screen. Note that we've used a new command in this script - `echo`. This is a simple command to print a string to the screen. Any argument that follows `echo` will be printed.
+
+To execute a script, simply type the path (relative is usually easiest) to that file on the command line. For instance, if `myScript.sh` is in your current working directory, you can type
+
+`./myScript.sh` - Executes `myScript.sh`
+
+Remember that `.` is just shorthand for the current working directory.
+
+> __Practice__
+>
+> (1) Add the lines above to your file, `myScript.sh`.
+>
+> (2) Run your script and verify that it produces the expected output.
 
 # Variables
 
