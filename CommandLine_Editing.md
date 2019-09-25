@@ -105,3 +105,23 @@ As usual, this output is printed to the screen by default. But it can also be re
 ## Deleting Files (CAREFUL!!)
 
 Before you learn the next command, please note that __DELETING FILES AT THE COMMAND LINE CANNOT BE UNDONE__.
+
+Since we can create files at the command line, we also need a way to delete them. However, deleting from the command line does not send a file to a trashcan from which we can go back and get them if we need. Command-line deletion is permanent, so proceed with caution.
+
+To delete a file, you can use `rm`, which stands for "remove". Whenever possible, you should specify the precise file you want to delete, for instance
+
+`rm test.txt` - delete `test.txt`
+
+However, in some cases you may want to bulk delete all the files of a particular type. Again, wildcards are useful for this
+
+`rm *.txt` - delete all text files
+
+Be careful when using wildcards not to accidentally include unintended files.
+
+The corresponding command to delete a folder is `rmdir`. For instance
+
+`rmdir myFolder` - delete `myFolder`
+
+Note that this command only works if a folder is empty. If there are files inside the folder, you can first delete these with `rm`, and then delete the folder with `rmdir`. You can also do these two steps in one, by specifying the recursive option (`-r`) to `rm`. Note that recursion will delete the folder and __anything__ nested inside it, including all files and other nested folders. Therefore, only use this if you're very confident it's want you want to do
+
+`rm -r myFolder` - delete `myFolder` and everything nested inside it
