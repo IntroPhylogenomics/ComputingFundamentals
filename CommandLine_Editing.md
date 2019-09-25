@@ -80,6 +80,28 @@ As with `head`, you can adjust the number of lines displayed by `tail`
 
 ## Redirecting Output Streams
 
+In the examples above, the output of the display commands (like `cat`, `head`, and `tail`) were all sent to the Terminal screen. However, there are many times when it is preferable to send this output to a file or even as the input to another command!
+
+To send the output of any command to be stored in a file, you can use the redirection operators `>` and `>>`. These commands differ in whether they overwrite or append to a file. It's always safter to use `>>` if you're worried about losing the contents of an existing file. Note that if you overwrite a file's contents, there's __no__ way to get it back.
+
+As one example, here's a way to send the contents of all text (`.txt`) files into a new text file called `allContents.txt`.
+
+`cat *.txt >> allContents.txt`
+
+You can also send the output of `head` or `tail` to a file in the same way
+
+`head -n 20 test.txt >> testHeader.txt`
+
+Sometimes the output of one command is also convenient to use as the input to another command. For instance, you could extract the first few lines of a file with `head` and then target the last few of these header lines with `tail`. To do this, we use a special type of redirection called piping. The pipe symbol is `|`. Here's one example of piping with `head` and `tail`:
+
+`head -n 10 test.txt | tail -n 5`
+
+Note that, in this case, `tail` does not need a filename as an argument. It is taking its input from the pipe.
+
+As usual, this output is printed to the screen by default. But it can also be redirected to a file, even after piping:
+
+`head -n 10 test.txt | tail -n 5 >> myLines.txt`
+
 ## Deleting Files (CAREFUL!!)
 
 Before you learn the next command, please note that __DELETING FILES AT THE COMMAND LINE CANNOT BE UNDONE__.
