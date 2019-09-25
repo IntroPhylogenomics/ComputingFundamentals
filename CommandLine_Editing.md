@@ -78,6 +78,12 @@ As with `head`, you can adjust the number of lines displayed by `tail`
 
 `tail -n 20 test.txt`
 
+You can also scroll through the contents of a file interactively using `less`. If you open a file with `less`, you can use the up and down arrows to move through the file. Pressing `q` at any point will exit `less` and bring you back to the standard Terminal screen.
+
+`less myFile.txt`
+
+If you need an example text file to use with `less`, you can copy the text from this tutorial and save it locally on your computer. 
+
 ## Redirecting Output Streams
 
 In the examples above, the output of the display commands (like `cat`, `head`, and `tail`) were all sent to the Terminal screen. However, there are many times when it is preferable to send this output to a file or even as the input to another command!
