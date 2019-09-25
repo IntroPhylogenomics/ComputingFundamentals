@@ -80,7 +80,7 @@ If you want to see this history, you can use the `history` command.
 
 This will display all of your most recent commands on numbered lines.
 
-Another useful trick when working at the command line is tab completion. As you start to type a command or a filename, the system will try and guess what you want if you press `tab`. If it is unable to distinguish among the possibilies, nothing will happen when you press `tab`. But if you've typed enough for the system to fill in the rest, it will!
+Another useful trick when working at the command line is tab completion. As you start to type a command or a filename, the system will try and guess what you want if you press `tab`. If it is unable to distinguish among the possibilities, nothing will happen when you press `tab`. But if you've typed enough for the system to fill in the rest, it will!
 
 For instance, type each of the following and see if the system can guess that you want to execute the `history` command.
 
