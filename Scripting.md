@@ -20,7 +20,45 @@ Whenever you start to create a bash script, the first thing you do should always
 
 # Permissions
 
+If you list the files in a directory with the long flag on (`ls -l`) you can see a lot of information about each file. The first 10 characters on each line may seem mysterious, but they tell you about the permission settings for each file and directory. The first character simply indicates whether that thing is a file (`-`) or a directory (`d`). Every file and directory has three types of permissions
+
+- Read (`r`)
+- Write (`w`)
+- Execute (`x`)
+
+and there are three groups whose permissions can be controlled separately
+
+- Owner
+- Group
+- Others
+
+So the next 9 characters indicate what permissions (`rwx`) are allowed for each of the groups. The first three characters correspond to the user, the next three to the user's group, and the last three to everyone else (others). More information on permissions is [available on Wikipedia](https://en.wikipedia.org/wiki/File_system_permissions#Notation_of_traditional_Unix_permissions).
+
+The permission that is important for scripts is the execute (`x`) permission. In order to run the commands in a script, this must be on (you need to see an `x` in the 4th character if you own the file). By default, execute permissions are not granted to new text files. To adjust permissions, you can use the `chmod` command. For instance, to add execute permissions for the user (i.e., you), you can use
+
+`chmod u+x myScript.sh`
+
+> __Practice__
+> 
+> (1) Check the permission settings on the file you created above (`myScript.sh`).
+>
+> (2) If needed, add execute permissions to this file.
+
 # Commenting
+
+Inside a bash script, or any other program, it is useful to leave comments as you write commands. These comments should explain what you are intending to do with your commands, so that you can remember later or that someone else can understand just by looking at your file. There is no limit on the number of comments that can be included in a script, and a good rule of thumb is to always write a little more than you think is necessary at the time.
+
+Comments are indicated in scripts using the `#` character. Anything that follows this character on the same line will be ignored. Here's a very simple script that illustrates the use of comments. If executed, this script should just print "script works!" back to the Terminal screen.
+
+```
+#! /usr/bin/env bash
+
+# This is my first line of comments. This line only contains comments.
+
+echo "script works!" # This is a comment that follows a command.
+```
+
+Note that we've used a new command in this script - `echo`. This is a simple command to print a string to the screen. Any argument that follows `echo` will be printed.
 
 # Variables
 
