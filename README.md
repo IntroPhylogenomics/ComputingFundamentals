@@ -8,3 +8,4 @@ Select other markdown files (.md) to view tutorials specific to each topic:
 - [Filesystems](https://github.com/IntroPhylogenomics/ComputingFundamentals/blob/master/Filesystems.md)
 - [Command Line - Navigating](https://github.com/IntroPhylogenomics/ComputingFundamentals/blob/master/CommandLine_Navigating.md)
 - [Command Line - Editing](https://github.com/IntroPhylogenomics/ComputingFundamentals/blob/master/CommandLine_Editing.md)
+- [Scripting](https://github.com/IntroPhylogenomics/ComputingFundamentals/blob/master/Scripting.md)
