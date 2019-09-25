@@ -69,3 +69,24 @@ One very powerful feature of working at the commandline is the ability to use wi
 You can also mix and match standard characters with wildcards for more sophisticated patterns. For instance, to find all the files that start with `m` and end with `.txt`, you can use
 
 `ls m*.txt` - list all files starting with `m` and ending with `.txt`.
+
+## Command History and Tab Completion
+
+As you type in Terminal, it stores a record of the commands you've used recently. This feature can be very helpful if you need to reuse a command later. For instance, at a fresh command prompt, just press the up arrow key. You should now see the last command you used! If you keep pressing up, you can scroll back through your command history.
+
+If you want to see this history, you can use the `history` command. 
+
+`history` - display your latest command history
+
+This will display all of your most recent commands on numbered lines.
+
+Another useful trick when working at the command line is tab completion. As you start to type a command or a filename, the system will try and guess what you want if you press `tab`. If it is unable to distinguish among the possibilies, nothing will happen when you press `tab`. But if you've typed enough for the system to fill in the rest, it will!
+
+For instance, type each of the following and see if the system can guess that you want to execute the `history` command.
+
+`h` + `tab` - Does it autocomplete the command?
+`hi` + `tab`
+`his` + `tab`
+`hist` + `tab`
+`histo` + `tab`
+`histor` + `tab`
