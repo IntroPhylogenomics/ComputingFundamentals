@@ -133,3 +133,8 @@ Note that this command only works if a folder is empty. If there are files insid
 `rm -r myFolder` - delete `myFolder` and everything nested inside it
 
 Note that sloppy use of recursive deletion can cause you to delete entire sections of your filesystem!
+
+> __Practice Exercise__
+>
+> 
+
