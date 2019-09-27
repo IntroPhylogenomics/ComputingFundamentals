@@ -74,4 +74,22 @@ Remember that `.` is just shorthand for the current working directory.
 
 # Variables
 
-# 
+Storing and accessing values with variables is one of the most important skills when writing scripts. To store a value in a variable, use the assignment operator - `=`. 
+
+`myVar=2`
+
+Here, our variable name is `myVar` and we're assigning it the value `2`. Note that Bash, unlike some other programming languages, does not allow spaces between the variable name, the assignment operator, and the value.
+
+To display the value of a variable, we can use the `echo` command. Note that to access a variable's value, we need to precede the variable's name with a `$`,
+
+`echo $myVar`
+
+Different kinds of values can be stored in a variable, not just numbers
+
+`myVar="test"`
+
+In this case, we've stored a string - `"test"`. Strings are named as such, becuase they store strings of characters.
+
+# Command-Line Arguments
+
+# For Loops
