@@ -90,6 +90,18 @@ Different kinds of values can be stored in a variable, not just numbers
 
 In this case, we've stored a string - `"test"`. Strings are named as such, becuase they store strings of characters.
 
+Also, note that echo statements can include multiple values back-to-back, including literal strings. One way in which this is useful is to include a literal string that describes what value is being printed
+
+`echo "The value of myVar is "$myVar`
+
+> __Practice__
+>
+> (1) Create a new varilable (`myVar`) in your script and assign it a value.
+>
+> (2) Include an echo statement in your script to print the value of this variable to the screen.
+
 # Command-Line Arguments
+
+Often you may want to write a script that does different things depending on the values of certain variables. While you could manually edit your scripts for each condition you want to run, a more convenient thing to do is to write one single script that you can run in different ways depending on arguments passed to it on the command line. Conveniently, bash has reserved certain special variable names for this very purpose.
 
 # For Loops
