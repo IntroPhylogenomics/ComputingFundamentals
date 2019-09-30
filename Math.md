@@ -8,7 +8,7 @@ In general, bash isn't very good for mathematical operations, but it can be done
 - `echo $(( 20 / 3 ))`
 - `echo $(( 20 % 3 ))`
 
-> Compare the output of these last two lines? What's going on?
+Compare the output of these last two lines? What's going on?
 
 NOTE: bash can only handle _integers_ and not floating-point numbers (i.e., decimals)
 
