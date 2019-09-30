@@ -151,8 +151,30 @@ done
 
 # If...Else
 
+One of the other very important programming concepts is known as "flow control". Basically, this just means doing different things depending on current conditions. There are several ways to accomplish flow control, but probably the most common is the `if...else` statement, which looks like this:
 
+```
+if <TEST_SOMETHING>
+then
+  <DO_THING_1>
+else
+  <DO_THING_2>
+fi
+```
 
+There are lots of different ways to compare values, depending on what type of values you're working with. Here is a page that lists several options: [Bash comparison operators](http://tldp.org/LDP/abs/html/comparison-ops.html). Here's one example:
 
+```
+# Defining value of numeric variable
+a=2
+        
+# if...else to see if value of number is at least 3
+if [ $a -lt 3 ]  # Note: this could also be ((a < 3))
+then
+  echo "$a is less than 3."
+else
+  echo "$a is NOT less than 3."
+fi
+```
 
 # While Loops
