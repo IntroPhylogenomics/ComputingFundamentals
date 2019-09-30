@@ -29,3 +29,20 @@ While the addresses for all files and folders can be written with paths that sta
 ## Hidden Files and Folders
 
 In Unix-based filesystems, you can keep some files and folders from showing up by default if you add a period, `.`, to the beginning of their names. These files are hidden. One common use for hidden files is to specify configuration settings for a program or system. These hidden files are usually stored in a user's home directory (e.g., `/Users/UserName/`). They can be revealed by listing a directory's contents using the `-a` flag - `ls -a`.
+
+## The PATH Variable
+
+Whenever you type a command in Terminal, the shell needs to know where to locate the program that tells it how to execute that command. As it turns out, every Terminal command is its own program! To find the relevant programs, the shell uses a special variable called `PATH`. In `PATH`, the shell stores a list of paths that it examines (in order) to look for any command you type. You can see this list of paths by typing
+
+`echo $PATH` - (we'll look into how this works later)
+
+When you type this command, you should see a list of absolute paths separated by `:`s. The directories where your typical Unix commands are stored have paths like `/bin`, `usr/bin`, and `usr/local/bin`.
+
+If you install new command-line software and want to be able to run it just by typing its name, the shell needs to be able to find it using `PATH`. You can make this possible in one of two ways:
+
+- (1) You can move a copy of the software to one of the folders already found in `PATH`
+- (2) You can add the folder where your software is located to `PATH`.
+
+To add a new folder to `PATH`, you can use a command like this
+
+`PATH=$PATH":/path/to/my/folder"`
