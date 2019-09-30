@@ -165,6 +165,15 @@ done
 >
 > (2) Add the for loop written above to your script and run your script with some command-line arguments.
 
+# Backticks
+
+Variables can be used to store values output from other bash commands. However, you need to tell bash to execute the other commands first so that their values can be stored in the variable. To do this, you can surround the commands in backticks - `` ` ``.
+
+```
+myWordLength=`echo -n "testWord" | wc -m`
+```
+
+To break this down, we're first using `echo` with the `-n` flag to print `testWord` without a newline character at the end. We're then using a pipe - `|` - to send the output into the word count command - `wc`. The `-m` flag tells `wc` to only count characters. By surrounding these commands in backticks, the output (`8`) is stored in the variable `myWordLength` rather than being printed to the screen.
 
 # If...Else
 
@@ -194,15 +203,21 @@ else
 fi
 ```
 
-# Backticks
-
-Variables can be used to store values output from other bash commands. However, you need to tell bash to execute the other commands first so that their values can be stored in the variable. To do this, you can surround the commands in backticks - `` ` ``.
+Here's an example of combining backticks, command-line arguments, and an if...else statement to write a script that tests if a command-line argument has a certain number of characters.
 
 ```
-myWordLength=`echo -n "testWord" | wc -m`
-```
+# Recording length of word provided on command line
+# What's going on with the backticks (``) here?
+myWordLength=`echo -n $1 | wc -m`
 
-To break this down, we're first using `echo` with the `-n` flag to print `testWord` without a newline character at the end. We're then using a pipe - `|` - to send the output into the word count command - `wc`. The `-m` flag tells `wc` to only count characters. By surrounding these commands in backticks, the output (`8`) is stored in the variable `myWordLength` rather than being printed to the screen.
+# test if word is at least 5 characters
+if [ $myWordLength -lt 5 ]
+then
+  echo "$1 is shorter than 5 characters."
+else
+  echo "$1 is at least 5 characters in length."
+fi
+```
 
 # While Loops
 
