@@ -177,4 +177,8 @@ else
 fi
 ```
 
+# Backticks
+
+Variables can be used to store values output from other bash commands. However, you need to tell bash to execute the other commands first so that their values can be stored in the variable. To do this, you can surround the commands in backticks - ```.
+
 # While Loops
