@@ -104,4 +104,20 @@ Also, note that echo statements can include multiple values back-to-back, includ
 
 Often you may want to write a script that does different things depending on the values of certain variables. While you could manually edit your scripts for each condition you want to run, a more convenient thing to do is to write one single script that you can run in different ways depending on arguments passed to it on the command line. Conveniently, bash has reserved certain special variable names for this very purpose.
 
+Remember that to access the value of a variable, we precede it with `$`. So, to access the value of the first command-line argument, we use `$1`. For the second command-line argument, we use `$2`, etc. The simplest thing to do in a script is to just print the values of these variables back to the screen.
+
+`echo $1`
+
+But we can also use the values of these variables to make our script behave in different ways (more below).
+
+> __Practice__
+>
+> (1) Add lines in your script to seperately print out the first and second arguments passed to the script on the command line.
+
+# If...Else
+
+
+
 # For Loops
+
+# While Loops
