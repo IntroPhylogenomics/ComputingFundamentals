@@ -127,13 +127,30 @@ done
 
 Let's break this down. First, we've defined a new variabled named `num`. This variable can be named anything you want. In this case, `num` will iteratively take the value of anything included in the list that follows `in`. During each iteration, the code in between `do` and `done` will be executed. In this case, we will simply print out each of the values our variable takes, one after the other. Later, we will use `for` loops that have a whole series of commands inside the loop.
 
+Double parentheses notation can also be used to write a `for` loop in a way that doesn't require you to write out every unique element in the list:
+
+```
+for ((num=1;num<=10;num++))
+do
+  echo $num
+done
+```
+
+When written this way, the `for` loop statement has a structure like this
+
+```
+for (( <START_VALUE> ; <STOP_CONDITION> ; <LOOP_UPDATE> ))
+```
+
+The variable is initialized to the start value, updated according to the loop update, and continues until the stop condition is no longer true. The loop update (`num++`) here adds `1` to `num` each time the loop iterates. NOTE: You _don't_ precede variables with `$` inside double parentheses.
+
 > __Practice__
 >
-> (1) Add the for loop written above to your script and see how it behaves.
+> (1) Add one of the for loops written above to your script and see how it behaves.
 >
 > (2) Now add a new element to the list of values after `in` and see what happens.
 
-Sometimes you'll want to loop through a whole series of command line arguments. To loop through these arguments, you can write `$@` in place of the list in your `for` statement.
+Sometimes you'll want to loop through a whole series of command-line arguments. To loop through these arguments, you can write `$@` in place of the list in your `for` statement.
 
 ```
 for num in $@
