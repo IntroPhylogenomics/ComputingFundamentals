@@ -11,7 +11,7 @@ Select other markdown files (.md) to view tutorials specific to each topic:
 - [Scripting](https://github.com/IntroPhylogenomics/ComputingFundamentals/blob/master/Scripting.md)
 - [HPC Example Script](https://github.com/IntroPhylogenomics/ComputingFundamentals/blob/master/HPCExampleScript.md)
 
-Here are a series of exercises to help practice the skills you've learned:
+Here are a series of exercises to help practice the skills we've covered:
 
 - [Changing File Extensions](https://github.com/IntroPhylogenomics/ComputingFundamentals/blob/master/Practice1_FileExtensions.md)
 - [Generating a Reverse Complement](https://github.com/IntroPhylogenomics/ComputingFundamentals/blob/master/Practice2_ReverseComplement.md)
