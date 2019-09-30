@@ -242,3 +242,27 @@ do
   echo $line
 done < "$1"
 ```
+
+# Reading Values Interactively
+
+You can accept values directly from users by using `read`. In general, you'll want to prompt the user, then follow the prompt with `read <VARIABLE>`. Whatever the user types in will be stored in that variable. Here's basic usage:
+
+```
+echo -n "Please type your name: "
+read name
+echo "Hello, "$name
+```     
+
+Here's an application that uses a while loop:
+
+```
+echo "Try to guess the word I'm thinking of: "
+read word
+while [ $word != "tigers" ]
+do
+  echo "Try again to guess the word: "
+  read word
+done
+echo "You finally got it!"
+```
+
