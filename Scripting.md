@@ -114,10 +114,30 @@ But we can also use the values of these variables to make our script behave in d
 >
 > (1) Add lines in your script to seperately print out the first and second arguments passed to the script on the command line.
 
+# For Loops
+
+One of the most common reasons to write a script is to automate something that is, at a minimum, very tedious to do manually and, at worst, completely impossible otherwise. A versatile way to incorporate repitition into a script is to use a `for` loop. `for` loops in bash have the following structure:
+
+```
+for num in 1 two 3 FOUR
+do
+  echo $num
+done
+```
+
+Let's break this down. First, we've defined a new variabled named `num`. This variable can be named anything you want. In this case, `num` will iteratively take the value of anything included in the list that follows `in`. During each iteration, the code in between `do` and `done` will be executed. In this case, we will simply print out each of the values our variable takes, one after the other. Later, we will use `for` loops that have a whole series of commands inside the loop.
+
+> __Practice__
+>
+> (1) Add the for loop written above to your script and see how it behaves.
+>
+> (2) Now add a new element to the list of values after `in` and see what happens.
+
+
 # If...Else
 
 
 
-# For Loops
+
 
 # While Loops
