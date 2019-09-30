@@ -133,6 +133,21 @@ Let's break this down. First, we've defined a new variabled named `num`. This va
 >
 > (2) Now add a new element to the list of values after `in` and see what happens.
 
+Sometimes you'll want to loop through a whole series of command line arguments. To loop through these arguments, you can write `$@` in place of the list in your `for` statement.
+
+```
+for num in $@
+do
+  echo $num
+done
+```
+
+> __Practice__
+>
+> (1) Add an echo statement to your script to indicate that you're about to write out the command-line arguments.
+>
+> (2) Add the for loop written above to your script and run your script with some command-line arguments.
+
 
 # If...Else
 
