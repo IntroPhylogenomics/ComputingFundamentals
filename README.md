@@ -10,3 +10,7 @@ Select other markdown files (.md) to view tutorials specific to each topic:
 - [Command Line - Editing](https://github.com/IntroPhylogenomics/ComputingFundamentals/blob/master/CommandLine_Editing.md)
 - [Scripting](https://github.com/IntroPhylogenomics/ComputingFundamentals/blob/master/Scripting.md)
 - [HPC Example Script](https://github.com/IntroPhylogenomics/ComputingFundamentals/blob/master/HPCExampleScript.md)
+
+Here are a series of exercises to help practice the skills you've learned:
+
+- [Changing File Extensions](https://github.com/IntroPhylogenomics/ComputingFundamentals/blob/master/Practice1_FileExtensions.md)
