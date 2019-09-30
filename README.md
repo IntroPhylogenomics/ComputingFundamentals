@@ -14,3 +14,4 @@ Select other markdown files (.md) to view tutorials specific to each topic:
 Here are a series of exercises to help practice the skills you've learned:
 
 - [Changing File Extensions](https://github.com/IntroPhylogenomics/ComputingFundamentals/blob/master/Practice1_FileExtensions.md)
+- [Generating a Reverse Complement](https://github.com/IntroPhylogenomics/ComputingFundamentals/blob/master/Practice2_ReverseComplement.md)
