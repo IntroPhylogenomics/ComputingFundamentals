@@ -232,4 +232,13 @@ do
 done
 ```
         
-        
+# Reading Lines from a File
+
+Bash has special syntax that can be used in combination with a while loop to keep reading lines from a file. In this case, the name of the file to be read is passed as the first command-line argument (`$1`).
+
+```
+while read line
+do
+  echo $line
+done < "$1"
+```
