@@ -127,6 +127,12 @@ done
 
 Let's break this down. First, we've defined a new variabled named `num`. This variable can be named anything you want. In this case, `num` will iteratively take the value of anything included in the list that follows `in`. During each iteration, the code in between `do` and `done` will be executed. In this case, we will simply print out each of the values our variable takes, one after the other. Later, we will use `for` loops that have a whole series of commands inside the loop.
 
+> __Practice__
+>
+> (1) Add the for loop written above to your script and see how it behaves.
+>
+> (2) Now add a new element to the list of values after `in` and see what happens.
+
 Double parentheses notation can also be used to write a `for` loop in a way that doesn't require you to write out every unique element in the list:
 
 ```
@@ -143,12 +149,6 @@ for (( <START_VALUE> ; <STOP_CONDITION> ; <LOOP_UPDATE> ))
 ```
 
 The variable is initialized to the start value, updated according to the loop update, and continues until the stop condition is no longer true. The loop update (`num++`) here adds `1` to `num` each time the loop iterates. NOTE: You _don't_ precede variables with `$` inside double parentheses.
-
-> __Practice__
->
-> (1) Add one of the for loops written above to your script and see how it behaves.
->
-> (2) Now add a new element to the list of values after `in` and see what happens.
 
 Sometimes you'll want to loop through a whole series of command-line arguments. To loop through these arguments, you can write `$@` in place of the list in your `for` statement.
 
@@ -205,3 +205,16 @@ myWordLength=`echo -n "testWord" | wc -m`
 To break this down, we're first using `echo` with the `-n` flag to print `testWord` without a newline character at the end. We're then using a pipe - `|` - to send the output into the word count command - `wc`. The `-m` flag tells `wc` to only count characters. By surrounding these commands in backticks, the output (`8`) is stored in the variable `myWordLength` rather than being printed to the screen.
 
 # While Loops
+
+Another flow control structure is a `while` loop. A `while` loop just has a single condition that it waits to be satisfied before exiting. `while` loops are somewhat more flexible than `for` loops, because they can run for a variable number of iterations, depending on the conditions. __WARNING:__ Because `while` loops don't have a fixed number of iterations, they can run infinitely if you're not careful.
+
+```
+num=1                     # Initialize num to 1
+while [ $num -lt 11 ]     # Keep going as long as num is less than 11
+do
+  echo $num               # Print num
+  (( num++ ))             # Increment num by 1
+done
+```
+        
+        
