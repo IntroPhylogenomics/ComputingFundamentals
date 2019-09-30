@@ -181,4 +181,10 @@ fi
 
 Variables can be used to store values output from other bash commands. However, you need to tell bash to execute the other commands first so that their values can be stored in the variable. To do this, you can surround the commands in backticks - `` ` ``.
 
+```
+myWordLength=`echo -n "testWord" | wc -m`
+```
+
+To break this down, we're first using `echo` with the `-n` flag to print `testWord` without a newline character at the end. We're then using a pipe - `|` - to send the output into the word count command - `wc`. The `-m` flag tells `wc` to only count characters. By surrounding these commands in backticks, the output (`8`) is stored in the variable `myWordLength` rather than being printed to the screen.
+
 # While Loops
