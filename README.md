@@ -19,3 +19,4 @@ Here are a series of exercises to help practice the skills we've covered:
 Now that we've learned how to work at the command-line, let's learn a little about Python:
 
 - [Python Basics](https://github.com/IntroPhylogenomics/ComputingFundamentals/blob/master/PythonBasics.md)
+- [More With Python](https://github.com/IntroPhylogenomics/ComputingFundamentals/blob/master/MorePython.md)
