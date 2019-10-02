@@ -83,14 +83,16 @@ In Python, the value of a Boolean can be reversed by preceding it with `not`.
 
 Python has a special way to format strings so that the values of variables can be included in the string itself. The operator `%` is used to indicate that the values of certain variables should be used to fill in a string. The parts of the string where the values should go is indicated with placeholders. The three most basic placeholders are:
 
-    - `%d` - An integer
-    - `%f` - A floating point number (i.e., a decimal)
-    - `%s` - A string
+`%d` - An integer
+`%f` - A floating point number (i.e., a decimal)
+`%s` - A string
     
 > _Practice Exercise_
 >
 > `faveInt = 7`
+>
 > `faveFloat = 3.14`
+>
 > `faveString = phyleaux`
 >
 > `print("Favorite integer is %d, favorite float is %f, and favorite string is %s." % (faveInt,faveFloat,faveString))`
