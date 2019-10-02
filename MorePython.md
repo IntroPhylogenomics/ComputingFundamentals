@@ -199,5 +199,7 @@ How do `firstList` and `secondList` compare?
 ## References
 
 [Python for Beginners](https://www.python.org/about/gettingstarted/)
+
 [Python Style Guide](https://www.python.org/dev/peps/pep-0008/)
+
 [Codecademy Python Course](https://www.codecademy.com/learn/learn-python)
