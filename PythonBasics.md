@@ -162,6 +162,20 @@ This method functions like find and replace, where the first argument is the tex
 
 `myStr.split("O")`
 
+If you are unsure what methods are available for a given variable, you can use
+
+`dir(myVar)`
+
+ Note that methods starting and ending with "__" are not meant for users to call. They are methods to be used by the system.
+
+> _Practice Exercise_
+>
+> (1) Create a string variable (`myStr`).
+>
+> (2) Show the available methods with `dir(myStr)`.
+>
+> (3) Pick a method that you haven't used before and see what it does with `myStr`.
+
 ## Creating a Python Script
 
 Python scripts can be created in a similar way to bash scripts. Open a blank text file and add a "shebang" line at the top. This time, list `python` instead of `bash`.
