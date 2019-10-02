@@ -11,12 +11,15 @@ Select other markdown files (.md) to view tutorials specific to each topic:
 - [Scripting](https://github.com/IntroPhylogenomics/ComputingFundamentals/blob/master/Scripting.md)
 - [HPC Example Script](https://github.com/IntroPhylogenomics/ComputingFundamentals/blob/master/HPCExampleScript.md)
 
-Here are a series of exercises to help practice the skills we've covered:
+Here are some exercises to help practice the Bash skills we've covered:
 
-- [Changing File Extensions](https://github.com/IntroPhylogenomics/ComputingFundamentals/blob/master/Practice1_FileExtensions.md)
-- [Generating a Reverse Complement](https://github.com/IntroPhylogenomics/ComputingFundamentals/blob/master/Practice2_ReverseComplement.md)
+- [Changing File Extensions](https://github.com/IntroPhylogenomics/ComputingFundamentals/blob/master/FileExtensions.md)
 
 Now that we've learned how to work at the command-line, let's learn a little about Python:
 
 - [Python Basics](https://github.com/IntroPhylogenomics/ComputingFundamentals/blob/master/PythonBasics.md)
 - [More With Python](https://github.com/IntroPhylogenomics/ComputingFundamentals/blob/master/MorePython.md)
+
+Here are some exercises to help practice the Python skills we've covered:
+
+- [Generating a Reverse Complement](https://github.com/IntroPhylogenomics/ComputingFundamentals/blob/master/ReverseComplement.md)
