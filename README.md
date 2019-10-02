@@ -15,3 +15,7 @@ Here are a series of exercises to help practice the skills we've covered:
 
 - [Changing File Extensions](https://github.com/IntroPhylogenomics/ComputingFundamentals/blob/master/Practice1_FileExtensions.md)
 - [Generating a Reverse Complement](https://github.com/IntroPhylogenomics/ComputingFundamentals/blob/master/Practice2_ReverseComplement.md)
+
+Now that we've learned how to work at the command-line, let's learn a little about Python:
+
+- [Python Basics](https://github.com/IntroPhylogenomics/ComputingFundamentals/blob/master/PythonBasics.md)
