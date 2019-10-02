@@ -129,6 +129,16 @@ Here are a few other really useful functions and descriptions of what they do
 
 `type(variable)` - Takes one variable as an argument and returns its type
 
+> _Practice Exercise_
+>
+> (1) Assign a string to a variable
+>
+> (2) Calculate the length of the string
+>
+> (3) Print the length to the screen
+>
+> Can you accomplish (2) and (3) in one line?
+
 ## Methods
 
 Methods are functions that belong to a variable. Methods are called by appending them to the name of a variable, separated by a `.` For instance, let's say we define a string
