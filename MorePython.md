@@ -6,7 +6,7 @@ If statements in Python are similar in form to Bash, but simpler. The general fo
 
 ```
 if <CONDITION>:
-  <DO_THIS>
+    <DO_THIS>
 ```
 
 The `if` statement has to finish with a `:`. Also, in Python, the code block inside the `if` statement __must__ be indented. You can use either tabs or a certain number of spaces. When using spaces, you must use the __same__ number of spaces throughout your code. The official recommendations for Python style strongly suggest using 4 spaces, rather than tabs.
