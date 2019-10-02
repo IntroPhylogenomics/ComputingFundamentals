@@ -38,21 +38,43 @@ To create a __floating point number__, assign a value that includes a decimal
 >
 > Changing numbers from one type to another is one form of __type casting__.
     
-### Strings - `myStr = "This is a string."`
-    - Strings can be of any length, but are always defined with quotes.
-    - Individual characters, or subsets of characters, can be accessed using square brackets - []
-      - String indices (and all indices in Python) start at 0
-      - `myStr = "biology"`
-      - `myStr[0]`
-      - A range of indices can be defined with a colon
-      - `myStr[2:5]`
-    - Strings can be concatenated together with the `+` operator.
-      - `myStr = "biology"`
-      - `newString = myStr + "_is_super_interesting"`
-      - `newString`
-  - Booleans - `True` or `False`
-    - These variables can take the values `True` or `False` only.
-      - `myBool = True`
-    - These are the data types used in things like `if...else` statements and `while` loops.
-    - Logical statements, like `myNum > 3` or `myStr == "test"`, return a boolean variable indicating the result of the comparison
-    - In Python, the value of a Boolean can be reversed by preceding it with `not`.
+### Strings 
+
+Strings are variables that contain a series (or string) of characters. They can be assigned values that are wrapped in quotation marks.
+
+`myStr = "This is a string."`
+
+Strings can be of any length and can include spaces or other special characters.
+
+Individual characters, or subsets of characters, can be accessed using square brackets (`[]`) but note that string indices (and all indices in Python) start at 0. For instance, try
+
+`myStr[0]`
+
+A range of indices can be defined with a colon to extract a series of characters
+
+`myStr[2:5]`
+
+Strings can be concatenated together with the `+` operator.
+
+`myStr = "biology"`
+`newString = myStr + "_is_super_interesting"`
+`newString`
+ 
+      
+### Booleans
+
+Booleans are variables that can take the values `True` or `False` only.
+
+`myBool = True`
+
+Note that `True` and `False` need to be written exactly like that, with only the first letter capitalized. Booleans are commonly used in flow control structures like `if...else` statements and `while` loops. Logical statements, like 
+
+`myNum > 3` or 
+
+`myStr == "test"`
+
+return a boolean variable indicating the result of the comparison.
+
+In Python, the value of a Boolean can be reversed by preceding it with `not`.
+
+`not myBool`
