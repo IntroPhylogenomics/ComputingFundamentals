@@ -20,7 +20,7 @@ In the header lines displayed when you start the Python interpreter, you should 
 
 Even though we don't have to explicitly list a type when we create a variable in Python, there are distinct data types and we need understand their differences.
 
-### Numbers
+#### Numbers
 
 Note that, unlike bash, Python can handle _both_ integers and floating point (decimal) numbers. To create an __integer__, assign a value without a decimal to a variable
 
@@ -38,7 +38,7 @@ To create a __floating point number__, assign a value that includes a decimal
 >
 > Changing numbers from one type to another is one form of __type casting__.
     
-### Strings 
+#### Strings 
 
 Strings are variables that contain a series (or string) of characters. They can be assigned values that are wrapped in quotation marks.
 
@@ -61,7 +61,7 @@ Strings can be concatenated together with the `+` operator.
 `newString`
  
       
-### Booleans
+#### Booleans
 
 Booleans are variables that can take the values `True` or `False` only.
 
