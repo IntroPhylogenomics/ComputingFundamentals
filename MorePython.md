@@ -80,3 +80,124 @@ elif nuc == "T":
 else:
     print("This is not a valid nucleotide!")
 ```
+
+## Lists
+
+We've now covered the simple variable types in Python: integers, floats, strings, and bools. However, there are several more complex types of variables that allow us to store and access multiple values. Perhaps the most versatile and common of these more complex types are lists. Lists are always specified using square brackets - `[]`.
+
+Lists can contain an arbitrary number and type of simpler variables, but we often want to use only one type in a list so as not to get confused.
+
+```
+listOfNums = [1,2,3,4]
+listOfFloats = [3.14, 2.0, 12.3]
+listOfStrings = ["Ecology", "Evolution", "Systematics"]
+listOfBools = [True, False, False, True]
+```
+   
+Even after they are created, lists can be modified. Individual elements can be added using the `.append()` method:
+
+```
+listOfNums.append(5)
+listOfStrings.append("Neurobiology")
+```
+
+Take another look at these lists
+
+```
+listOfNums
+listOfStrings
+```
+
+Elements can be removed using a few different methods. Try
+
+`listOfFloats.pop()`
+
+What is returned? And what does the list look like now?
+
+You can remove specific values from a list, regardless of their position, by using the `remove(<VALUE>)` method. What happens when you execute
+
+`listOfBools.remove(False)`
+
+How does the list change?
+
+Lists can contain lists as elements. For instance, try this:
+
+```
+newList = []
+newList.append([1,2,3])
+newList.append([4,5,6])
+newList.append([12,13,14])
+```
+What does `newList` look like now?
+
+`newList`
+
+You can also add all the _individual elements_ of one list to another.
+
+```
+newList = [1,2,3]
+newList.extend([4,5,6])
+newList.extend([12,13,14])
+```
+
+How does this version of `newList` differ from what you got when you used `append()`?
+
+You can view or extract parts of a list by using indices and "slicing" the list (just remember that Python starts counting at 0!)
+
+`newList[4:7]`
+
+What values are returned? How do these relate to the indices you provided?
+
+You can also alter individual elements of lists by using indices
+
+```
+newList
+newList[2] = 100
+newList
+```
+
+## For Loops
+
+One of the nicest things about Python is the relationship between lists and `for` loops. If you have an existing list, you can quickly iterate across all of its elements using this syntax:
+
+```
+for num in newList:
+    print("This number is: %d" % num)
+```
+            
+If you still want to iterate over a series of integers, you can use the range() function.
+
+```
+for num in range(10):
+    print("This number is: %d" % num)
+```
+
+## A Note About Copying Variables
+
+Try this
+
+```
+firstNum = 2
+secondNum = firstNum
+firstNum = 5
+firstNum
+secondNum
+```
+
+How do `firstNum` and `secondNum` compare to each other? Now try this
+
+```
+firstList = [1,2,3]
+secondList = firstList
+firstList.extend([4,5,6])
+firstList
+secondList
+```
+
+How do `firstList` and `secondList` compare?
+
+## References
+
+[Python for Beginners](https://www.python.org/about/gettingstarted/)
+[Python Style Guide](https://www.python.org/dev/peps/pep-0008/)
+[Codecademy Python Course](https://www.codecademy.com/learn/learn-python)
