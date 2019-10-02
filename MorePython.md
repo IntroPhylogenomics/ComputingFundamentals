@@ -196,6 +196,78 @@ secondList
 
 How do `firstList` and `secondList` compare?
 
+## Reading From Files
+
+To read or write from a file, you'll first need to define the file name
+
+`inFileName = "FileToRead.txt"`
+
+However, this is just a string variable with the file name. We need to create an object that can actually read the contents of a file. Python has a built-in function to create a file object
+
+`open(<FILENAME>,<MODE>)`
+
+The `<FILENAME>` argument is just a string with the file's name (or path to the file). The `<MODE>` argument tells Python whether we are reading from a file (`r`), writing to a file (`w`), or appending to a file (`a`). To open up a new File object to read file contents, use syntax like this
+
+`inFile = open(inFileName,'r')`
+    
+There are several useful methods associated with file objects, but one of the most commonly used is `readline()`. This method will read lines one-by-one from the file. Note that the end of line character (\n) is retained when the line is read in.
+
+`firstLine = inFile.readline()`
+
+Files opened for reading can be used in a `for` loop, as follows, to go through all the lines in the file
+
+```
+for line in file:
+    print("Length of line is: %d" % (len(line)))
+```
+            
+Note that `line` is just a variable name we've chosen to hold each line as we iterate through the file. You can use any variable name you choose, as with any other `for` loop.
+
+## Writing to Files
+
+Writing to a file is very similar to reading from a file. First, you define an output file name
+
+`outFileName = "FileToWrite.txt"`
+    
+To create a file object to use for writing, we'll again use the `open()` function, but we'll specify `'w'` for the `<MODE>`.
+
+`outFile = open(outFileName,'w')`
+
+To write to the file line-by-line, we can use the `.write()` method.
+
+`outFile.write("This is a new sentence.\n")`
+
+Note that the `write()` method does NOT, by default, add a new line character to strings. If we want to end a line, we have to explicitly include `\n`.
+
+## Command-line Arguments
+
+As with bash scripts, Python scripts can also take advantage of command-line arguments. To easily handle command-line arguments, we're going to take advantage of some functions in the `sys` library. So we'll need to start by importing that library:
+
+`import sys`
+
+Any command-line arguments we pass to a script can then be accessed using the `sys.argv` variable. For instance
+
+`print(sys.argv[2])`
+    
+> _Practice Exercise_
+>
+> (1) Create a Python script that loads the `sys` library
+>
+> (2) Include the print statement above
+>
+> (3) Execute the script with several command-line arguments (`myScript.py one 2 THREE 4 five SIX`)
+>    
+> Which argument is printed when you run the line above?
+
+We can also loop through all command-line arguments:
+
+```
+for arg in sys.argv:
+    print(arg)
+```
+            
+These abilities are very useful in a variety of contexts, but particularly when a set of filenames are provided as command-line arguments and you want to iteratively process each file.
+
 ## References
 
 [Python for Beginners](https://www.python.org/about/gettingstarted/)
