@@ -99,5 +99,34 @@ Python has a special way to format strings so that the values of variables can b
 >
 > Note how the variables holding the values are provided in the same order inside parentheses after the `%`.
 
+## Functions
+
+Functions are the verbs of a programming language. Functions take some variables or objects as input (arguments) and either do something with them or return a new variable/object. Functions are always written like this
+
+`myFunction(object1,object2,...)`
+
+Functions _always_ have parentheses, even if they don't need any arguments to be passed to them. For example
+
+`myFunction()`
+
+The number and type of arguments needed is specific to each function. Perhaps the simplest function to use is
+
+`print()`
+
+`print()` can take an arbitrary number of variables as arguments and will print them to the screen.
+
+`print("testString")`
+
+`print("testString",2)`
+
+Here are a few other really useful functions and descriptions of what they do
+
+`len(string)` - Takes one argument (a string) and returns its length
+
+`abs(number)` - Takes one argument (either an integer or a float) and returns its absolute value
+
+`round(float)` - Takes one floating point number as an argument and rounds it to the nearest integer
+
+`type(variable)` - Takes one variable as an argument and returns its type
 
 
