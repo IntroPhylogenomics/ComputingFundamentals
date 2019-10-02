@@ -20,14 +20,25 @@ In the header lines displayed when you start the Python interpreter, you should 
 
 Even though we don't have to explicitly list a type when we create a variable in Python, there are distinct data types and we need understand their differences.
 
-  - Numbers
-    - Note that, unlike bash, Python can handle _both_ integers and floating point (decimal) numbers.
-    - Integers - `myInt = 10`
-    - Floating point numbers (decimals) - `myFloat = 3.21312`
-    - Define myInt and myFloat as above. Now calculate `myInt / myFloat`. What type of number is the result?
-    - Now try `float(myInt)` and `int(myFloat)`. What are the results? Look back at the values of `myInt` and `myFloat`. Have they changed?
-    - Changing numbers from one type to another is one form of "type casting".
-  - Strings - `myStr = "This is a string."`
+### Numbers
+
+Note that, unlike bash, Python can handle _both_ integers and floating point (decimal) numbers. To create an __integer__, assign a value without a decimal to a variable
+
+`myInt = 10`
+
+To create a __floating point number__, assign a value that includes a decimal
+
+`myFloat = 3.21312`
+
+> _Practice Exercise_
+>
+> Define `myInt` and `myFloat` as above. Now calculate `myInt / myFloat`. What type of number is the result?
+>
+> Now try `float(myInt)` and `int(myFloat)`. What are the results? Look back at the values of `myInt` and `myFloat`. Have they changed?
+>
+> Changing numbers from one type to another is one form of __type casting__.
+    
+### Strings - `myStr = "This is a string."`
     - Strings can be of any length, but are always defined with quotes.
     - Individual characters, or subsets of characters, can be accessed using square brackets - []
       - String indices (and all indices in Python) start at 0
