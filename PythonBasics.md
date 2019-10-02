@@ -129,4 +129,56 @@ Here are a few other really useful functions and descriptions of what they do
 
 `type(variable)` - Takes one variable as an argument and returns its type
 
+## Methods
 
+Methods are functions that belong to a variable. Methods are called by appending them to the name of a variable, separated by a `.` For instance, let's say we define a string
+
+`myStr = "biOLogy  "`
+
+Here are some really useful methods that can be used with that string:
+
+`myStr.upper()` - Converts all characters in the string to uppercase
+`myStr.lower()` - Converts all characters in the string to lowercase
+`myStr.strip()` - Removes whitespace from the beginning or ending of the string
+
+Methods can also be chained (called consecutively).
+
+`myStr.strip().lower()`
+`myStr.replace("y","ical")`
+
+This method functions like find and replace, where the first argument is the text to find and the second argument is the text to use when replacing.
+
+`.split(char)` breaks up a string using the character provided as an argument as the delimiter. This method then returns a list of new strings. We'll talk more about lists later.
+
+`myStr.split("O")`
+
+## Creating a Python Script
+
+Python scripts can be created in a similar way to bash scripts. Open a blank text file and add a "shebang" line at the top. This time, list `python` instead of `bash`.
+
+`#!/usr/bin/env python`
+
+Add some Python code to the file and save it (`myScript.py`). For instance, you can try printing something to the screen with `print()`.
+
+To be able to execute the script, you'll need to add execute permissions to the file with `chmod` as you did with Bash scripts.
+
+`chmod +x myScript.py`
+
+Now try executing the script in Terminal
+
+`./myScript.py`
+
+You can also execute a Python script without adding execute permissions by passing it to the Python interpreter
+
+`python myScript.py`
+
+## Comments in Python
+
+Comments are included in Python, like Bash, by putting a `#` at the beginning of a line (or part of a line). Many text editors have a shortcut keystroke to toggle lines between being commented and uncommented.
+
+`# This is an example of a comment`
+
+## Additional Resources
+
+- [Python](https://www.python.org)
+- [Software Carpentry - Intro. to Python](http://swcarpentry.github.io/python-novice-inflammation/)
