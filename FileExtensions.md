@@ -1,4 +1,4 @@
-# Practice Exercise 1 - Changing File Extensions
+# Changing File Extensions
 
 Let's say you have a whole series of files that end with the extension .txt
 and you'd like to rename them to have .text extensions. But, you don't know
