@@ -1,6 +1,6 @@
 # Computing Fundamentals
 
-This repository contains tutorials and associated files for learning about the fundamentals of computing and working at the command line.
+This repository contains tutorials and associated files for learning about the fundamentals of computing and working at the command line. Primarily, we will talk about how to use commands and write scripts in Bash and Python. These two kinds of scripts are commonly used in bioinformatics and phylogenomics to manage large amounts of data and large numbers of files.
 
 Select other markdown files (.md) to view tutorials specific to each topic:
 
