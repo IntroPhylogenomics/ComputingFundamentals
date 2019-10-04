@@ -16,6 +16,7 @@ Here are some exercises to help practice the Bash skills we've covered:
 - [Changing File Extensions](https://github.com/IntroPhylogenomics/ComputingFundamentals/blob/master/FileExtensions.md)
 - [Extracting Lines](https://github.com/IntroPhylogenomics/ComputingFundamentals/blob/master/ExtractingLines.md)
 - [Searching For a File](https://github.com/IntroPhylogenomics/ComputingFundamentals/blob/master/FileSearching.md)
+- [Counting Lines in Files](https://github.com/IntroPhylogenomics/ComputingFundamentals/blob/master/CountingLines.md)
 
 Now that we've learned how to work at the command-line, let's learn a little about Python:
 
