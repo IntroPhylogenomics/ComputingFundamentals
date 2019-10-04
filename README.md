@@ -23,3 +23,4 @@ Now that we've learned how to work at the command-line, let's learn a little abo
 Here are some exercises to help practice the Python skills we've covered:
 
 - [Generating a Reverse Complement](https://github.com/IntroPhylogenomics/ComputingFundamentals/blob/master/ReverseComplement.md)
+- [Rosalind Practice Problems](http://rosalind.info/problems/list-view/)
