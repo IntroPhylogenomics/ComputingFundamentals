@@ -84,6 +84,32 @@ You can also scroll through the contents of a file interactively using `less`. I
 
 If you need an example text file to use with `less`, you can copy the text from this tutorial and save it locally on your computer. 
 
+## Searching Through Files
+
+Sometimes you may want to see if a certain text pattern exists in a file without viewing the entire file. In this case, the `grep` command is incredibly powerful. The basic syntax is
+
+`grep <PATTERN> <PATH_TO_FILE>`
+
+For instance, to search for the string `five` in the file `test.txt`, we could use
+
+`grep five test.txt`
+
+Take a look at the output. Note that the _entire_ line containing five is returned and not just the string itself.
+
+Wildcards and additional symbols can be used to make searches general or more specific. For instance, using
+
+`grep fi* test.txt`
+
+will match any string that starts with `fi`.
+
+`grep ^five test.txt`
+
+will only look for the string `five` if it is at the very beginning of a line.
+
+`grep five$ test.txt`
+
+will only look for the string `five` if it is at the end of a line.
+
 ## Redirecting Output Streams
 
 In the examples above, the output of the display commands (like `cat`, `head`, and `tail`) were all sent to the Terminal screen. However, there are many times when it is preferable to send this output to a file or even as the input to another command!
