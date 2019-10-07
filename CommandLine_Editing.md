@@ -56,6 +56,8 @@ Sometimes you may also want to just view the contents of a text file (or series 
 
 `cat test.txt` - view the entire contents of `test.txt`
 
+You can download a copy of [test.txt here](https://github.com/IntroPhylogenomics/ComputingFundamentals/blob/master/test.txt).
+
 When you execute this command, the file's contents will be printed to the Terminal screen. You can also list the contents of multiple files at the same time using a wildcard. For instance, if you want to view the contents of all text files at once, you can use
 
 `cat *.txt` - view the contents of all files ending with `.txt`
