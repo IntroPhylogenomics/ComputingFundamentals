@@ -112,6 +112,8 @@ will only look for the string `five` if it is at the very beginning of a line.
 
 will only look for the string `five` if it is at the end of a line.
 
+There are many other possible patterns that can be used with `grep`. If you search online for grep cheat sheets, you can find a lot more information.
+
 ## Redirecting Output Streams
 
 In the examples above, the output of the display commands (like `cat`, `head`, and `tail`) were all sent to the Terminal screen. However, there are many times when it is preferable to send this output to a file or even as the input to another command!
@@ -135,6 +137,20 @@ Note that, in this case, `tail` does not need a filename as an argument. It is t
 As usual, this output is printed to the screen by default. But it can also be redirected to a file, even after piping:
 
 `head -n 10 test.txt | tail -n 5 >> myLines.txt`
+
+## Parsing File Contents
+
+Another very powerful command is called `awk`, which can do lots of different forms of text parsing. For the purposes of this course, we will focus on using `awk` to extract individual columns (generally separated by spaces or tabs) from a file. The syntax we will use looks like this
+
+`awk '{print $1}' test.txt`
+
+This will print out the first column. To print the third column, we would use
+
+`awk '{print $3}' test.txt`
+
+To print both the first and third columns, we could do this
+
+`awk '{print $1,$3}' test.txt`
 
 ## Deleting Files (CAREFUL!!)
 
