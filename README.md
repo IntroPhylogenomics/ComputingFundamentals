@@ -18,7 +18,7 @@ Here are some exercises to help practice the Bash skills we've covered:
 - [Counting Lines in Files](https://github.com/IntroPhylogenomics/ComputingFundamentals/blob/master/CountingLines.md)
 - [Calculator](https://github.com/IntroPhylogenomics/ComputingFundamentals/blob/master/Calculator.md)
 
-Now that we've learned how to work at the command-line, let's learn a little about Python:
+Now that we've learned how to work at the command-line, here are some resources to learn a little about Python. We won't have time to cover Python together in this course, and it's not necessary for the later topics, but it will probably be useful to you at some point in your research so we encourage you to take a look:
 
 - [Python Basics](https://github.com/IntroPhylogenomics/ComputingFundamentals/blob/master/PythonBasics.md)
 - [More With Python](https://github.com/IntroPhylogenomics/ComputingFundamentals/blob/master/MorePython.md)
